@@ -1,0 +1,45 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "a879a65cad48a45e1e5c130d31f8d724",
+    "content-hash": "083452a308c63b4f557727fcfb7aa59d",
+    "packages": [
+        {
+            "name": "portsidedesign/usaepay-php",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/portsidedesign/usaepay-php.git",
+                "reference": "14a7f80d4c8239925a2060bdf72c948e8bfdc811"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/portsidedesign/usaepay-php/zipball/14a7f80d4c8239925a2060bdf72c948e8bfdc811",
+                "reference": "14a7f80d4c8239925a2060bdf72c948e8bfdc811",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "USAEPay": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "description": "Fork of USAePay's PHP API library that includes composer package support.",
+            "time": "2015-05-08 18:30:23"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "portsidedesign/usaepay-php": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

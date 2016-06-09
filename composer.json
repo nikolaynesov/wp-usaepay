@@ -1,0 +1,10 @@
+{
+    "name": "nikolaynesov/wp-usaepay",
+    "description": " WordPress USAePay PHP Library integration plugin",
+    "keywords": ["wordpress", "usaepay"],
+    "license": "MIT",
+    "type": "plugin",
+    "require": {
+        "portsidedesign/usaepay-php": "dev-master"
+    }
+}
