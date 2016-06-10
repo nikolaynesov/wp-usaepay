@@ -70,6 +70,14 @@ class Admin {
 			'usaepay_plugin'
 		);
 
+		add_settings_field(
+			'testmode',
+			__( 'Use Test Mode', 'usaepay' ),
+			array($this, 'testmode_render'),
+			'pluginPage',
+			'usaepay_plugin'
+		);
+
 
 	}
 
@@ -89,6 +97,16 @@ class Admin {
 	function sandbox_render(  ) {
 		?>
 		<input type='checkbox' name='usaepay_settings[sandbox]' <?php checked( usaepay_get_sandbox(), 1 ); ?> value='1'>
+		<?php
+
+	}
+
+	/**
+	 * Render Test Mode field
+	 */
+	function testmode_render(  ) {
+		?>
+		<input type='checkbox' name='usaepay_settings[testmode]' <?php checked( usaepay_get_testmode(), 1 ); ?> value='1'>
 		<?php
 
 	}

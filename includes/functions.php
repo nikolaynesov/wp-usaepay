@@ -16,8 +16,20 @@ function usaepay_get_key() {
  */
 function usaepay_get_sandbox() {
 
-        $data =  get_option( 'usaepay_settings' );
+    $data =  get_option( 'usaepay_settings' );
 
-        return (empty($data || !isset($data['sandbox']))) ? false : $data['sandbox'];
+    return (empty($data || !isset($data['sandbox']))) ? false : $data['sandbox'];
 
-    }
+}
+
+
+/**
+ * @return bool
+ */
+function usaepay_get_testmode() {
+
+    $data =  get_option( 'usaepay_settings' );
+
+    return (empty($data || !isset($data['testmode']))) ? false : $data['testmode'];
+
+}
