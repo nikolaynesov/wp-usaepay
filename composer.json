@@ -5,6 +5,6 @@
     "license": "MIT",
     "type": "plugin",
     "require": {
-        "portsidedesign/usaepay-php": "dev-master"
+        "nikolaynesov/usaepay-php": "dev-master"
     }
 }

@@ -4,39 +4,39 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "a879a65cad48a45e1e5c130d31f8d724",
-    "content-hash": "083452a308c63b4f557727fcfb7aa59d",
+    "hash": "aff423dde69f5cdae5a83d2fb22e9c18",
+    "content-hash": "60c798774ce6798775851aeeb502db08",
     "packages": [
         {
-            "name": "portsidedesign/usaepay-php",
+            "name": "nikolaynesov/usaepay-php",
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/portsidedesign/usaepay-php.git",
-                "reference": "14a7f80d4c8239925a2060bdf72c948e8bfdc811"
+                "url": "https://github.com/nikolaynesov/usaepay-php.git",
+                "reference": "adf0f4ef56ab35b7cdca466afa11841934571ee8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/portsidedesign/usaepay-php/zipball/14a7f80d4c8239925a2060bdf72c948e8bfdc811",
-                "reference": "14a7f80d4c8239925a2060bdf72c948e8bfdc811",
+                "url": "https://api.github.com/repos/nikolaynesov/usaepay-php/zipball/adf0f4ef56ab35b7cdca466afa11841934571ee8",
+                "reference": "adf0f4ef56ab35b7cdca466afa11841934571ee8",
                 "shasum": ""
             },
             "type": "library",
             "autoload": {
-                "psr-0": {
-                    "USAEPay": "src/"
+                "psr-4": {
+                    "USAePay\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
             "description": "Fork of USAePay's PHP API library that includes composer package support.",
-            "time": "2015-05-08 18:30:23"
+            "time": "2016-06-09 17:14:32"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "portsidedesign/usaepay-php": 20
+        "nikolaynesov/usaepay-php": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
