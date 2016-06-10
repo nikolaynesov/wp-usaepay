@@ -1,6 +1,10 @@
 # wp-usaepay
 WordPress USAePay PHP Library integration plugin
 
+- Manage you USAePay Key and Sandbox settings from WP Admin.
+- Get USAePay Key and Sandbox settings with usaepay_get_key() or usaepay_get_sandbox() respectively
+- Init transaction with new USAePay\umTransaction in your theme or plugins
+
 USAePay PHP Library
 =================================
 
