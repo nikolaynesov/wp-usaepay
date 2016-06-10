@@ -4,6 +4,8 @@ WordPress USAePay PHP Library integration plugin
 USAePay PHP Library
 =================================
 
+Supports Composer. PSR-4.
+
 [http://www.usaepay.com](http://www.usaepay.com)
 
 [http://help.usaepay.com/developer/phplibrary](http://help.usaepay.com/developer/phplibrary)
@@ -49,8 +51,7 @@ QUICK START
 --------------------
 
 	<?php
-	include "usaepay.php";
-	$tran=new umTransaction;
+	$tran=new USAePay\umTransaction;
 	$tran->key="AAAAABBBBBBCCCCCCDDDDDDEEEEEEEE";
 	$tran->card="4444555566667779";
 	$tran->exp="1214";
